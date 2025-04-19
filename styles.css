@@ -118,7 +118,7 @@ body {
 }
 
 #watermark::after {
-    content: "Made by Rahul";
+    content: "Made by Aquib";
     position: fixed;
     bottom: 0;
     right: 0;
