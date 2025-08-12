@@ -45,9 +45,9 @@
                 <img id="qr-image" src="assets/qr-code.png" alt="UPI QR Code">
             </div>
             <div class="payment-info">
-                <p id="qr-text">Scan the QR code or use the UPI ID:</p>
+                <p id="qr-text">Scan the QR code or use the BNB Adress:</p>
                 <div class="upi-id-content">
-                    <strong id="payment-id">aquib01@upi</strong>
+                    <strong id="payment-id">0x456945634e4d9d9b9a6069f72a869963281aa40e</strong>
                     <button id="payment-button" class="copy-button">Copy</button>
                     <lottie-player 
                         id="upi-animation"
@@ -86,7 +86,7 @@
                 };
 
                 qrImage.src = "assets/paypal_qr.png";
-                paymentId.textContent = "KGN BOTZ";
+                paymentId.textContent = "TCGhZQcb2uixuzg6vXctfAVB8NHe3PMxqU";
                 paymentButton.textContent = "Open PayPal";
                 paymentButton.removeEventListener("click", copyUpiId);
                 paymentButton.addEventListener("click", openPayPalLink);
